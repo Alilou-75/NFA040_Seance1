@@ -1,4 +1,4 @@
-﻿<html>
+<html>
 <head> 
   <title>Exercice3 Formulaire </title>
 </head>
@@ -8,30 +8,37 @@
     <p>Votre pseudo: <input name="A" type="Text" /></p>
     <p>mot de passe: <input name="A" type="Text" /></p>
     <p>Ressaisir votre <br/> mot de passe: <input name="A" type="Text" /></p>
-    <p> OS préféré:</p>
-    <input name="C" type="radio" value="Windows XP"/> Windows XP
+    <p> OS préféré: 
+      <br><input name="C" type="radio" value="Windows XP"/> Windows XP
       <br><input name="C" type="radio" value="Windows Vista"/> Windows Vista
       <br><input name="C" type="radio" value="Mac OS X"/> Mac OS X
       <br><input name="C" type="radio" value="Linux"/> Linux
       <br><input name="C" type="radio" value="Autre"/> Autre
-    <p>Vous possédez:<p>Vous possédez: <input name="C" type="checkbox" value="Un ordinateur de bureau"/>Un ordinateur de bureau
+      </p>
+    <p>Vous possédez: 
+      <br><input name="C" type="checkbox" value="Un ordinateur de bureau"/>Un ordinateur de bureau
       <br><input name="C" type="checkbox" value="Un portable"/>Un portable
-        <br><input name="C" type="checkbox" value="Un netbook"/>Un netbook
+    <br><input name="C" type="checkbox" value="Un netbook"/>Un netbook
       <br><input name="C" type="checkbox" value="Une tablette (Pad)"/>Une tablette (Pad)
-    </p>
-    <p> Votre profession:
-
+    <p> 
       
+<label for="cars">Votre profession:</label>
+<select id="cars" name="cars">
+  <option value="Chômeur">Chômeur</option>
+  <option value="Etudiant">Etudiant</option>
+  <option value="Fonctionnaire">Fonctionnaire</option>
+  <option value="Privé">Privé</option>
+  <option value="Retraité">Retraité</option>
+</select>
+    </p>
+    <p>
+      <p><input type="submit" value="S'inscrire !" />
     </p>
 
     
   </fieldset>
 </form>
-</body>
-</html>
-
-
-
+ 
   
 </body>
 </html>
