@@ -3,21 +3,16 @@
 <head>
     <title>Exercice CSS</title>
     <style>
-        html {
-		  background-color: black;
-         
-         
-	      }
+       
       body{
           background-color: black;
           width=400px
-          border-top: 3px white double;
-          border-right: 3px white double;
-          border-bottom: 3px white double;
-          border-left: 3px white double;
- 
-        
-      }
+          border: 2px white double;
+          }
+      .div_avec_bordure_et_padding{
+	         border: 1px solid white;
+	       padding: 255px;
+            }
       
 		#Madiv1{color:white; 
                 font-weight:bold;
@@ -67,6 +62,8 @@
 </head>
 <body>
     <header>
+      <div class="div_avec_bordure_et_padding">
+</div>
         <div id="Madiv1">En haut à <br/> gauche</div>
         <div id="Madiv2">En haut à <br/> droite</div>
         <div id="Madiv3">En bas à <br/> droite</div>
